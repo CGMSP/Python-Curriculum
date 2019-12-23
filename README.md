@@ -32,7 +32,23 @@ else:
 	print('My var is false')
 
 ```
-### Data Types
+
+
+## Conditional Statements
+Conditional statements are at the heart of programming. In essence, it is simply saying "if this, than that."
+#### Example:
+```
+var = True # Define variable 'var'
+
+if var == True: #If it's true ...
+	print('My var is true!') # Print that to the terminal
+elif var == False: # If it's false...
+	print('My var is false') # Print that to the terminal
+else:
+  print("Your var could be of a different data type, which you will learn about in the next section.")
+```
+
+## Data Types
 Variables can be many different types of values. For example, "Hello", would be called a string. A string is text. Strings have a type called str. Another type of value is called an integer. Like in math, an integer is a whole number or it's opposite. It's data type is called int. A float, can be any rational number. A Boolean, (type bool) is a value in Boolean logic. These are, for example, True, and False. There are also Boolean operators, (like and, or, xor) which we will get to later.
 
 #### Example:
