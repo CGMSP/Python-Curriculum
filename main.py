@@ -59,4 +59,22 @@ print(my_function())
 y = False
 def new_function(y):
     return type(y), y
-    print(new_function(y))
+
+print(new_function(y))
+
+
+# loops
+## while
+
+z = 10
+while z > 0:
+	print("z is ", z)
+	z -= 1 # z = z - 1
+
+#for
+fruits = ['apple', 'banana', 'pomegranate']
+i = 0
+x = 0
+for i in fruits:
+	print(fruits[x])
+	x = x + 1

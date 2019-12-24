@@ -81,3 +81,33 @@ age = input("How old are you?   ") # Define a variable called age to the input f
 print("Your name is ", name, "and you are ", age, "years old") # Print these variables
 
 ```
+## Functions
+Functions are blocks of code. When you 'call' a function, you are essentially running all of the code that is inside of the function. Functions can have parameters, or 'arguments'. If you have a function with parameters, you can tell the function to compute something about the parameters.
+
+#### Examples
+```
+def my_function():
+    return "Im in a function!"
+
+    print(my_function()) # Will print "Im in a function!"
+```
+
+## Loops
+Loops are used to do something multiple times. You can choose to repeat code *while* a condition is true or false. You can also choose to repeat code *for* a number of times.
+#### Examples
+##### For
+```
+z = 10
+while z > 0: #While z is less than 10
+	print("z is ", z) # print the value of z
+	z -= 1 # z = z - 1
+```
+##### While
+```
+fruits = ['apple', 'banana', 'pomegranate'] # Define a list of fruits
+i = 0
+x = 0
+for i in fruits: # For every time i goes into fruits (this is 3 times)
+	print(fruits[x]) # print the Xth item in the list 'fruits'
+	x = x + 1 # Add 1 to x
+```
