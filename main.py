@@ -78,3 +78,8 @@ x = 0
 for i in fruits:
 	print(fruits[x])
 	x = x + 1
+
+# For with range
+
+for i in range(10):
+	print("this will happen 10 times")

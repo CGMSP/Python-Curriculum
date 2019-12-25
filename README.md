@@ -93,15 +93,25 @@ def my_function():
 ```
 
 ## Loops
-Loops are used to do something multiple times. You can choose to repeat code *while* a condition is true or false. You can also choose to repeat code *for* a number of times.
+Loops are used to do something multiple times. You can choose to repeat code *while* a condition is true or false. You can also choose to repeat code *for* every time a variable goes into another variable or a range.
 #### Examples
 ##### For
+Variable into variable:
 ```
 z = 10
 while z > 0: #While z is less than 10
 	print("z is ", z) # print the value of z
 	z -= 1 # z = z - 1
+
 ```
+Do it 10 times (range)
+
+```
+
+for i in range(10):
+	print("this will happen 10 times")
+	```
+	
 ##### While
 ```
 fruits = ['apple', 'banana', 'pomegranate'] # Define a list of fruits
