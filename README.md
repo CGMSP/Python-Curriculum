@@ -94,8 +94,7 @@ if int(selection) < 2: # If the selection is 1 or 0 (if it is valid)
 	print(info[int(selection)]) # print the selection'th entry in the list called 'info'
 else: # if the selection is not legal (more than 2)
     raise RuntimeError('Wrong Argument. Please enter a selection of 1 or 0.')
-
-		```
+```
 
 ## Functions
 Functions are blocks of code. When you 'call' a function, you are essentially running all of the code that is inside of the function. Functions can have parameters, or 'arguments'. If you have a function with parameters, you can tell the function to compute something about the parameters.
