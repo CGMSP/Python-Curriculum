@@ -53,7 +53,6 @@ else:
 ## Without params
 def my_function():
     return "Im in a function!"
-
 print(my_function())
 
 ## With params

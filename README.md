@@ -102,9 +102,8 @@ Functions are blocks of code. When you 'call' a function, you are essentially ru
 #### Examples
 ```
 def my_function():
-    return "Im in a function!"
-
-    print(my_function()) # Will print "Im in a function!"
+    return "I'm in a function!"
+print(my_function()) # Will print "Im in a function!"
 ```
 
 ## Loops
