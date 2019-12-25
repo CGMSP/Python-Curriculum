@@ -2,22 +2,22 @@
 The python curriculum for the Activity
 
 ## Contents:
-- print
-- variables
+- Print
+- Variables
 - Data Types
 - User input
 - Lists
 - Functions
 
-## print
-print: Print something to the terminal.
+## Print
+print(): Print something to the terminal.
 syntax:
 print()
 You can print strings, variables, and other types of data.
 #### Example:
 `print("Hello World!")`
 
-## variables
+## Variables
 Variables are like in math. In python, variables can change throughout the program. This is called "Mutability".
 #### Example:
 ```
@@ -111,7 +111,7 @@ Do it 10 times (range)
 for i in range(10):
 	print("this will happen 10 times")
 	```
-	
+
 ##### While
 ```
 fruits = ['apple', 'banana', 'pomegranate'] # Define a list of fruits
