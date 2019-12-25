@@ -45,9 +45,10 @@ name = input("What is your name?    ")
 age = input("How old are you?   ")
 info = [name, age]
 selection = input("If you would like to see your name, type 0. Of you would like to know your age, type 1.")
-
-print(info[int(selection)])
-
+if int(selection) < 2:
+	print(info[int(selection)])
+else:
+    raise RuntimeError('Wrong Argument. Please enter a selection of 1 or 0.')
 # Functions
 ## Without params
 def my_function():

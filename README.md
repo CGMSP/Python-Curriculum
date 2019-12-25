@@ -81,6 +81,22 @@ age = input("How old are you?   ") # Define a variable called age to the input f
 print("Your name is ", name, "and you are ", age, "years old") # Print these variables
 
 ```
+
+## Lists
+Lists are lists. They are variables that contain a list of things.
+#### Examples
+```
+name = input("What is your name?    ")
+age = input("How old are you?   ")
+info = [name, age] # define a list called 'info' with the users name and age.
+selection = input("If you would like to see your name, type 0. Of you would like to know your age, type 1.") # Make a var called 'selection' which is the response to the prompt :"If you would like to see your name, type 0. Of you would like to know your age, type 1."
+if int(selection) < 2: # If the selection is 1 or 0 (if it is valid)
+	print(info[int(selection)]) # print the selection'th entry in the list called 'info'
+else: # if the selection is not legal (more than 2)
+    raise RuntimeError('Wrong Argument. Please enter a selection of 1 or 0.')
+
+		```
+
 ## Functions
 Functions are blocks of code. When you 'call' a function, you are essentially running all of the code that is inside of the function. Functions can have parameters, or 'arguments'. If you have a function with parameters, you can tell the function to compute something about the parameters.
 
