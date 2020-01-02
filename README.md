@@ -124,8 +124,8 @@ Do it 10 times (range)
 
 for i in range(10):
 	print("this will happen 10 times")
-	```
 
+```
 ##### While
 ```
 fruits = ['apple', 'banana', 'pomegranate'] # Define a list of fruits
