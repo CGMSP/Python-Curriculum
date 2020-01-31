@@ -135,3 +135,68 @@ for i in fruits: # For every time i goes into fruits (this is 3 times)
 	print(fruits[x]) # print the Xth item in the list 'fruits'
 	x = x + 1 # Add 1 to x
 ```
+
+## Math stuff
+
+### Operations
+
+
+#### Addition & Subtraction
+Addition and subtraction are quite simple. It's simply plus and minus.
+
+##### Example    
+
+```     
+x = 5        
+x == x + 1                                    
+print(x) # This will print X which is now 6.            
+x += 1 # += is adds the following amount                
+print(x) # prints X which is now 7                  
+
+
+
+```                    
+
+
+
+#### Multiplication                            
+Multiplication uses the * (asterisk) symbol.                      
+##### Example                    
+```                          
+x = 5 # x is 5                     
+print(x) # prints x which is 5                  
+x = x * 3 # x is now x (5) * 3 (15)           
+print(x) # prints x which is now 15        
+x *= 2 # multiplies x by 2              
+print(x) # prints x which is now 30              
+```                      
+               
+#### Division                 
+In python, there are 2 types of division. One that actually divides the two numbers, and one that returns the remainder.              
+#### Example                      
+This is an example of the first type of division in python.            
+```             
+x = 5 # x is 5                 
+print(x) # prints x which is 5         
+x = x / 5 # divides x by 5        
+print(x) # prints x which is now 1.            
+x /= 2 # divides x by 2                
+print(x) # prints x which is now 0.5            
+```            
+
+#### Exponents                                       
+In python, exponents are handled using two asterisks.                  
+
+##### Example
+
+```
+x = 2 # x is 2
+print(x) # prints x which is now 2
+x = x ** 2 
+print(x) # prints x which is now 2 squared, or 4.
+x **= 2 
+print(x) # prints x which is now 16      
+
+
+
+```
