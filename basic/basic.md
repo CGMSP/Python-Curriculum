@@ -49,7 +49,8 @@ else:
 ```
 
 ## Data Types
-Variables can be many different types of values. For example, "Hello", would be called a string. A string is text. Strings have a type called str. Another type of value is called an integer. Like in math, an integer is a whole number or it's opposite. It's data type is called int. A float, can be any rational number. A Boolean, (type bool) is a value in Boolean logic. These are, for example, True, and False. There are also Boolean operators, (like and, or, xor) which we will get to later.
+Variables can be many different types of values. For example, "Hello", would be called a string. A string is text (eg. “hello world”). Strings have a type called str. Another type of value is called an integer. Like in math, an integer is a whole number or it's opposite (eg. 5). It's data type is called int. A float, can be any rational number (eg. 5.2). A Boolean, (type bool) is a value in Boolean logic (eg. True). These are, for example, True, and False. There are also Boolean operators, (like and, or, xor) which we will get to later.
+
 
 #### Example:
 ```
