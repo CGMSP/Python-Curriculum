@@ -123,7 +123,7 @@ while z > 0: #While z is less than 10
 	print("z is ", z) # print the value of z
 	z -= 1 # z = z - 1
 
-```
+```     
 Do it 10 times (range)
 
 ```
