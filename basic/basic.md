@@ -99,6 +99,11 @@ else: # if the selection is not legal (more than 2)
 
 ## Functions
 Functions are blocks of code. When you 'call' a function, you are essentially running all of the code that is inside of the function. Functions can have parameters, or 'arguments'. If you have a function with parameters, you can tell the function to compute something about the parameters.
+Imagine the math function *f(x) = x + 2*, then, *f(2)* would be 2 + 2, or 4. We can write that same function in python like this:     
+```    
+def f(x):
+    x += 1 # X += 1 is the same as x = x + 1.
+```
 
 #### Examples
 ```
