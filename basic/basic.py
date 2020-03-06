@@ -83,3 +83,13 @@ for i in fruits:
 
 for i in range(10):
 	print("this will happen 10 times")
+
+# Boolean operators
+x = True
+y = False
+if x is y:
+	print("X and y are the same")
+elif x is not y:
+	print("X and y are not equal.")
+else:
+	raise RuntimeError("Gottem good")

@@ -142,6 +142,22 @@ for i in fruits: # For every time i goes into fruits (this is 3 times)
 	x = x + 1 # Add 1 to x
 ```
 
+## Logical (boolean) operators
+Boolean operators include and, or, not, and xor (exclusive or). They are used to have your program be able to have logic (eg. if this not that.)
+
+##### Example:
+```
+x = True
+y = False
+if x is y:
+	print("X and y are the same")
+elif x is not y:
+	print("X and y are not equal.")
+else:
+	raise RuntimeError("Gottem good")
+
+```
+
 ## Math stuff
 
 ### Operations
@@ -176,7 +192,7 @@ print(x) # prints x which is now 15
 x *= 2 # multiplies x by 2              
 print(x) # prints x which is now 30              
 ```                      
-               
+
 #### Division                 
 In python, there are 2 types of division. One that actually divides the two numbers, and one that returns the remainder.              
 #### Example                      
@@ -198,9 +214,9 @@ In python, exponents are handled using two asterisks.
 ```
 x = 2 # x is 2
 print(x) # prints x which is now 2
-x = x ** 2 
+x = x ** 2
 print(x) # prints x which is now 2 squared, or 4.
-x **= 2 
+x **= 2
 print(x) # prints x which is now 16      
 
 
